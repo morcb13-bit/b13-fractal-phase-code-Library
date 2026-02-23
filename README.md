@@ -31,6 +31,23 @@ a radix-3120 ("BASE=3120") fractal index. The key design is to separate:
   - prints resolution table, shows indexing examples, and a quick evaluator demo
 
 ## Correctness notes
+
+
+b13-fractal-phase/
+  README.md
+  LICENSE
+  src/
+    b13phase/
+      __init__.py
+      constants.py
+      phase_digits.py
+      phase_packed_u64.py
+      level0_table.py
+      evaluator_proto.py
+      demo.py
+  tests/
+    test_phase_digits.py
+    test_phase_packed_u64.py
 - Exact:
   - digit decomposition, digit addition/carry, packing/unpacking, Level0 table generation
 - Experimental:
